@@ -108,6 +108,8 @@ Proxy 객체에서 각 JoinPoint에 해당하는 Advice들을 호출하고 핵�
 **Thread**는 하나의 프로그램(Process) 내에서 실행되는 흐름의 기본 단위를 말한다.
 메모리 영역을 공유하기 때문에 프로세스간 통신보다 간단하며 효율적이다. (동일 Process 내의 Thread 들은 Code, Data, Heap 영역을 공유하며, Stack 영역만 각자 관리)
 
+참고: [Process와 thread에 대한 정리](https://magi82.github.io/process-thread/)
+
 **공용객체**는 여러 Thread가 공용으로 사용하는 객체를 말한다.
 여러 Controller가 하나의 Service를 사용할 수 있으며, 이러한 service는 공용객체
 
