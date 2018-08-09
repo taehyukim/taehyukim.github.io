@@ -10,9 +10,18 @@ Spring에 대한 개요 및 기본 개념들
     - Proxy 객체
 - Layered Architecture
 
-## 2회차
+## [2회차](spring_class/class2)
+- HttpServletRequest, httpServletResponse
+- DispatcherServlet 과 Controller
+- Servlet, default servlet
+- @RestController, @GetMapping
+- @PathVariable, @RequestParam, @ModelAttribute
 
 ## [3회차](spring_class/class3)
+- Filter & Interceptor
+- HandlerMethodArgumentResolver
+- Thymeleaf & Lombok
+- ThreadLocal
 
 ## 4회차
 
