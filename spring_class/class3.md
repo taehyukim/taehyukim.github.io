@@ -149,6 +149,11 @@ Thread 관련 코드에서 parameter를 사용하지 않고 값을 전달하기 
 - 트랜잭션 컨텍스트 전파 - 트랜잭션 매니저는 트랜잭션 컨텍스트를 전파하는 데 ThreadLocal을 사용한다.
 
 ### 기타
+Servlet
+- HttpServlet을 상속받아 Servlet을 구현
+- 메모리에 없으면 올리고 init() 호출한 뒤 Service(req, res) 호출
+- 메모리에 한번만 올라가는 singleton
+
 **[Pingendo](https://pingendo.com/)** - Free Bootstrap 4 Builder
 
 
