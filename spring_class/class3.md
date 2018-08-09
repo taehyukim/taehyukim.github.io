@@ -148,6 +148,10 @@ Thread 관련 코드에서 parameter를 사용하지 않고 값을 전달하기 
 - 사용자 인증정보 전파 - Spring Security에서는 ThreadLocal을 이용해서 사용자 인증 정보를 전파한다.
 - 트랜잭션 컨텍스트 전파 - 트랜잭션 매니저는 트랜잭션 컨텍스트를 전파하는 데 ThreadLocal을 사용한다.
 
+### 기타
+**[Pingendo](https://pingendo.com/)** - Free Bootstrap 4 Builder
+
+
 ## 과제
 
 ### Builder Pattern과 Lombok을 사용한 Effective Java 의 Builder Pattern 구현
